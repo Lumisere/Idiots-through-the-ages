@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Idiots Through The Ages</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950 text-gray-100 font-sans">
+
+  <header class="text-center py-12 bg-gradient-to-r from-green-700 to-emerald-500 shadow-xl">
+    <h1 class="text-4xl md:text-6xl font-extrabold drop-shadow-lg">Idiots Through The Ages</h1>
+    <p class="mt-3 text-lg md:text-xl">Tracking Minecraft versions as our server evolves</p>
+  </header>
+
+  <main class="max-w-3xl mx-auto p-6">
+    <h2 class="text-2xl font-bold mb-6 text-center">Version History</h2>
+    <div class="space-y-4">
+
+      <div class="border border-gray-700 rounded-xl overflow-hidden">
+        <button onclick="toggleAccordion(this)" 
+          class="w-full flex justify-between items-center p-4 bg-gray-800 hover:bg-gray-700 transition">
+          <span class="text-lg font-semibold">Minecraft 1.2</span>
+          <svg class="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="hidden bg-gray-900 p-4 space-y-2">
+          <p>First version of the server! Sept 2025</p>
+          <p><b>─────────────────── <br>Additions: <br>───────────────────</b></p>
+          <p>Chiseled Stone Bricks (c)<br>Redstone Lamp<br>Jungle Log<br>Jungle Leaves<br>Jungle Sapling<br>Bottle O' Enchanting (c)<br>Fire Charge<br>Ocelot Spawn Egg (c)<br>Iron Golem<br>Ocelot<br>Jungle Biome<br>Desert Wells<br>Zombie Sieges (Large Amount Of Zombies That Spawn In Villages)<br>Birch Planks<br>Spruce Planks<br>Jungle Planks<br>Cut Sandstone<br>Chiseled Sandstone<br>Chat history, clickable links, copy/paste, auto-fill names, formatting codes<br>Out of Memory screen (Back & Quit buttons)<br>Minimal Debug Menu (Shift + F3)<br>Armor outlines re-added to inventory<br>Shift-click support for Furnace</p>
+          <p><b>─────────────────── <br>Changes: <br>───────────────────</b></p>
+          <p>Dispenser texture updated<br>Grass now replaced when blocks placed on it<br>Ladders (collision box re-added, recipe yields 3 instead of 2)<br>Lava sound and particle effects<br>Oak Sapling texture updated<br>Cobwebs now absorb all fall damage<br>Slabs & Stairs (crafting yields 6 instead of 3, upside-down placement)<br>Vines can be climbed<br>Water cushioning reduced (2 blocks instead of 4)<br>Cave Spiders swim faster<br>Creeper AI changed (no strafing, stop before exploding)<br>Villagers can breed if enough houses<br>Wolves can be bred with meat (chicken, pork, beef, rotten flesh)<br>Zombies (can break doors on Hard/Hardcore, rare iron drops, improved pathfinding, target villagers)<br>Skeletons (rare bow drops, seek shade/water when burning)<br>Snow Golems melt in Nether<br>Zombie Pigmen (rare gold/helmet/sword drops, swim faster)<br>Mineshafts generate with wooden bridges<br>Wool colors slightly desaturated<br>Sandstone texture changed<br>Cats sit on chests, furnaces, and beds<br>Pigs cannot be saddled as babies<br>Cats less eager & patient<br>Controls: Pick block replaces held item if hotbar is full</p>
+          <p><b>─────────────────── <br>Removals: <br>───────────────────</b></p>
+          <p>Worlds saved in Alpha level format no longer shown in world selection</p>
+          <p><b>─────────────────── <br>Bug Fixes: <br>───────────────────</b></p>
+          <p>1.2.1 – 3 bug fixes (double doors & redstone, ambience in multiplayer, mob spawners showing correct mob)<br>1.2.2 – 3 bug fixes (tree & mushroom generation, snow on maps)<br>1.2.3 – 4 bug fixes (light bug crash, mobs burning in sunlight, brightness levels, sapling growth above Y=127)<br>1.2.4 – 25 bug fixes (half block placement, crashes at max height, TNT ghost blocks, chest minecart drops, duplication exploits, lighting, redstone lamp drop bug, Silk Touch fix, villager texture bug, etc.)<br>1.2.5 – 14 bug fixes (chat crashes, ocelot behavior, world gen, sound issues, ghost entities removed, command strictness, TNT punching behavior, Mac quit shortcut, etc.)</p>
+
+        </div>
+      </div>
+
+      <div class="border border-gray-700 rounded-xl overflow-hidden">
+        <button onclick="toggleAccordion(this)" 
+          class="w-full flex justify-between items-center p-4 bg-gray-800 hover:bg-gray-700 transition">
+          <span class="text-lg font-semibold">Minecraft 1.3</span>
+          <svg class="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="hidden bg-gray-900 p-4 space-y-2">
+          <p>We Finally have trading! Oct 2025</p>
+          <p><b>─────────────────── <br>Additions: <br>───────────────────</b></p>
+          <p>Stairs & Slabs for all wood variants<br>Wood Blocks (all sides bark) (o)<br>Emerald Ore<br>Emerald<br>Block of Emerald<br>Ender Chest<br>Tripwire Hook & String Traps<br>Sandstone Stairs<br>Book & Quill<br>Written Book<br>Enchanted Golden Apple (strong version)<br>Cocoa Bean Farming<br>Bonus Chest (world option)<br>Desert Villages<br>Desert Pyramids (with TNT trap)<br>Jungle Temples (with traps & loot)<br>Adventure Mode<br>Trading with Villagers<br>Large Biomes World Type<br>New Commands: /seed, /gamemode, /give, /xp, /time, /kill, /debug, /toggledownfall, /defaultgamemode, /help<br>Creative-Only Blocks: Monster Egg Blocks (Silverfish), End Portal Frame, Layered Snow, All Potions (c)<br>New Options (chat, snooper, fullscreen, server texture pack toggle)</p>
+          <p><b>─────────────────── <br>Changes: <br>───────────────────</b></p>
+          <p>Logs can now be placed sideways<br>Slabs & Stairs can be placed upside down<br>Furnaces now use wooden tools as fuel<br>Ice & Glass Panes can be silk-touched<br>Cauldrons fill with rain<br>Leaves drip water in rain<br>Dispensers can place boats, minecarts, buckets<br>Zombie Pigmen spawn rarely from Nether Portals<br>TNT damage scales by difficulty<br>Books now crafted with paper + leather<br>Cocoa Beans now farmable<br>Golden Apples have 2 crafting recipes<br>Buckets now stack to 16<br>Cookies restore more hunger<br>Pigs drop 1–3 porkchops<br>Creepers, Skeletons, Zombies, Spiders have smarter behavior + difficulty-based damage<br>Endermen stalk players when angry<br>Villagers from spawn eggs get random jobs<br>Boats & Minecarts less glitchy<br>Creative Inventory categories, search, survival tab<br>Enchanting max level 30, easier bookshelf setup<br>XP drops from ores, smelting, spawners<br>LAN play added<br>Hardcore Mode (ban on death)<br>Server List improvements + LAN detection<br>Connections now encrypted<br>Performance: less lag, faster chunk loading, smoother multiplayer</p>
+          <p><b>─────────────────── <br>Removals: <br>───────────────────</b></p>
+          <p>Eye of Ender particle effect bug (offset visuals) removed</p>
+          <p><b>─────────────────── <br>Bug Fixes: <br>───────────────────</b></p>
+          <p>40+ bugs fixed<br>Creative glitches (tools, items, dupes)<br>Boats & Minecarts issues<br>Potion & Nether Portal bugs<br>Piston crashes & redstone issues<br>Armor/enchanted glow not showing<br>Weather & sky glitches fixed<br>Multiplayer sync issues (arrows, mobs, nameplates, sounds)<br>General crash fixes</p>
+
+        </div>
+      </div>
+
+  </main>
+
+  <footer class="text-center py-6 text-gray-500 text-sm">
+    &copy; 2025 Idiots Through The Ages — Minecraft Server Project<br>
+    Website Made By Lumisere
+  </footer>
+
+  <script>
+    function toggleAccordion(button) {
+      const content = button.nextElementSibling;
+      const svg = button.querySelector("svg");
+
+      if (content.classList.contains("hidden")) {
+        content.classList.remove("hidden");
+        svg.classList.add("rotate-180");
+      } else {
+        content.classList.add("hidden");
+        svg.classList.remove("rotate-180");
+      }
+    }
+  </script>
+</body>
+</html>
